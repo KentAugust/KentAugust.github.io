@@ -9696,3 +9696,13 @@ textarea.form-control {
   -ms-touch-action: auto;
       touch-action: auto;
 }
+
+.big-2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+  /* -moz-user-select: */
+  /* -khtml-user-select */
+  user-select: none;
+}
