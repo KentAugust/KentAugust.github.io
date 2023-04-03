@@ -9691,3 +9691,8 @@ textarea.form-control {
   font-size: 2em;
   color: #ffbd39;
 }
+
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+  -ms-touch-action: auto;
+      touch-action: auto;
+}
